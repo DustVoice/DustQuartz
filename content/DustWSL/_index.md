@@ -9,7 +9,7 @@ title: DustWSL
 test = "Hello"
 ```
 
-```shell-session
+```shellsession
 echo "some bash" > hello.txt
 ```
 
@@ -17,7 +17,7 @@ echo "some bash" > hello.txt
 echo hello > test.txt
 ```
 
-```shell-session
+```shellsession
 $ echo "Now in a cmdline" > world.txt
 ```
 

@@ -1,10 +1,10 @@
 ---
 dg-publish: true
 share: true
-dg-pinned: 
+dg-pinned: true
 title: DustWSL
 ---
-```toml title:test.toml
+```toml title="test.toml"
 [Simple test]
 test = "Hello"
 ```
@@ -17,10 +17,10 @@ echo "some bash" > hello.txt
 echo hello > test.txt
 ```
 
-```shellsession
-$ echo "Now in a cmdline" > world.txt
+```console
+dustvoice@arch$ echo "Now in a cmdline" > world.txt
 ```
 
-```shell-session
-# echo cmdline > test2.txt
+```console
+root@arch# echo cmdline > test2.txt
 ```
